@@ -4,6 +4,33 @@ body {
     margin-bottom: 48px;
 }
 
+h1, h2, h3 {
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+p {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.HiddenLink {
+    color: black;
+    text-decoration: none;
+}
+
+.HiddenLink:hover {
+    color: #37f;
+}
+
+a {
+    color: #37f;
+}
+
 #header {
     background: #ddd;
     border-bottom: solid 2px #777;
